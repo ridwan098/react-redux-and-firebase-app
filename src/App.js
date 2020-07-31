@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
-
+import Navbar from './Components/Layout/Navbar'
 
 class App extends Component {
 
@@ -8,7 +8,7 @@ class App extends Component {
         return (
             <BrowserRouter>
                 <div>
-                    <h1>Hello world</h1>
+                    <Navbar />
                 </div>
             </BrowserRouter>
         );
